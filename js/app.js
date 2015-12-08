@@ -1,15 +1,18 @@
-var imageUrls = new Array("01_surrealism_day.jpg", 
-	                      "02_impressionism_day.jpg",
-	                      "03_fauvism_day.jpg",
-	                      "04_art_nouveau_day.jpg",
-	                      "05_cubism_day.jpg");
+var images = new Array("01_surrealism", 
+	                   "02_impressionism",
+	                   "03_fauvism",
+	                   "04_art_nouveau",
+	                   "05_cubism",
+	                   "06_pop_art",
+	                   "07_photorealism");
 
-var index = Math.floor(Math.random() * imageUrls.length);
+var index = Math.floor(Math.random() * images.length);
 
 function changeBg() {
-	var img = imageUrls[index];
-	$('#image').css('background-image', 'url('+'../timeless_art/img/' + img + ')' );
-	$('#image').fadeIn();
+	var img = images[index];
+
+	$('#day').css('background-image', 'url('+'../timeless_art/img/' + img + '_day.jpg)' );
+	$('#night').css('background-image', 'url('+'../timeless_art/img/' + img + '_night.jpg)' );
 }
 
 $(document).ready(function() {
