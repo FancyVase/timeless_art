@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h3 {
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+	font-size: 16px;
+	text-align: center;
+	margin: 5px 300px;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+}
+
+#image, #info{ width: 100%; }
+
+#image{
+	background:url('../img/01_surrealism_day.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 300px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#me { background: url('../img/me.png')no-repeat; width: 120px; height: 120px; margin: 0 auto; position: relative; bottom: -40px;}
+
+#info{
+	background: url(../img/info.jpg) 50% 0 no-repeat fixed;
+	height: 200px;
+	margin: 0 auto;
+	padding: 250px 0;
+	color: #fff;
+	background-size: cover;
+}
+
+#credits  { color: #fff; font-family:"Trebuchet MS";  font-size: 14px; margin-top: 100px; text-align: center;  }
+#credits  a { text-decoration: none; color: #fff;  }
