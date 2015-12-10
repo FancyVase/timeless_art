@@ -12,19 +12,19 @@ var images = new Array("01_impressionism",
 					   "12_pop_art",
 					   "13_photorealism");
 
-var titles = new Array("Claude Monet - Impression, Sunrise",
-	                   "Andre Derain - Landscape near Chatou",
-	                   "Scott Christian Sava - Art Nouveau 17",
-	                   "Pablo Picasso - Factory, Horta de Ebbo",
-	                   "Rodchenko, Stepanova - Books!",
-	                   "Edvard Munch - The Scream of Nature",
-	                   "Tullio Crali - Bombardamento Aereo",
-	                   "René Magritte - The Treachery of Images",
-	                   "Salvador Dalí - The Persistence of Memory",
-	                   "Wassily Kandinsky - Composition VIII, 1923",
-	                   "Jackson Pollock - Convergence",
-	                   "Roy Lichtenstein - Whaam!",
-	                   "Robert Neffson - Notre Dame De Paris");
+var titles = new Array("Impressionism | Claude Monet - Impression, Sunrise",
+	                   "Fauvism | Andre Derain - Landscape near Chatou",
+	                   "Art Nouveau | Scott Christian Sava - Art Nouveau 17",
+	                   "Cubism | Pablo Picasso - Factory, Horta de Ebbo",
+	                   "Constructivism | Rodchenko, Stepanova - Books!",
+	                   "Expressionism | Edvard Munch - The Scream of Nature",
+	                   "Futurism | Tullio Crali - Bombardamento Aereo",
+	                   "Dadaism | René Magritte - The Treachery of Images",
+	                   "Surrealism | Salvador Dalí - The Persistence of Memory",
+	                   "Bauhaus | Wassily Kandinsky - Composition VIII, 1923",
+	                   "Abstract Expressionism - Jackson Pollock | Convergence",
+	                   "Pop Art | Roy Lichtenstein - Whaam!",
+	                   "Photorealism | Robert Neffson - Notre Dame De Paris");
 
 var index = Math.floor(Math.random() * images.length);
 
