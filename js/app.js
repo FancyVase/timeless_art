@@ -9,10 +9,8 @@ var images = new Array("01_surrealism",
 var index = Math.floor(Math.random() * images.length);
 
 function changeBg() {
-	var img = images[index];
-
-	$('#day').css('background-image', 'url('+'../timeless_art/img/' + img + '_day.jpg)' );
-	$('#night').css('background-image', 'url('+'../timeless_art/img/' + img + '_day.jpg)' );
+	$('#day').css('background-image', 'url('+'../timeless_art/img/' + images[index] + '_day.jpg)' );
+	$('#night').css('background-image', 'url('+'../timeless_art/img/' + images[index] + '_day.jpg)' );
 }
 
 $(document).ready(function() {
