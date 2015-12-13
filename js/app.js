@@ -29,8 +29,8 @@ var titles = new Array("Impressionism | Claude Monet - Impression, Sunrise",
 var index = Math.floor(Math.random() * images.length);
 
 function updateImage() {
-	$('#day').css('background-image', 'url('+'../timeless_art/img/' + images[index] + '_day.jpg)' );
-	$('#night').css('background-image', 'url('+'../timeless_art/img/' + images[index] + '_night.jpg)' );
+	$('#day').css('background-image', 'url(img/' + images[index] + '_day.jpg)' );
+	$('#night').css('background-image', 'url(img/' + images[index] + '_night.jpg)' );
 	$('#name').text(titles[index]);
 }
 
